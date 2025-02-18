@@ -24,8 +24,8 @@ def latestimg():
       latest=max(files, key=os.path.getctime)
       return latest
 
-latest=latestimg()
 os.system('snippingtool.exe')
+latest=latestimg()
 img=Image.open(latest)
 s=ist(img)
 print(f"Orginal:\n{s}")
