@@ -1,19 +1,19 @@
 Dependencies
 ===
-tesseract\
+>tesseract\
 winget install UB-Mannheim.TesseractOCR
 
-pytesseract\
+>pytesseract\
 pip install pytesseract
 
-ollama\
+>ollama\
 [Ollama download link]("https://ollama.com/download")\
 or\
 winget install Ollama.Ollama\
 ollama run dolphin-mistral:latest\
 pip install ollama
 
-pillow
+>pillow
 pip install Pillow
 
 That's bout it
